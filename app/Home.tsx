@@ -12,16 +12,6 @@ function Home() {
 
       <Text style={styles.text}>PULSE. POWER. PRECISION.</Text>
 
-      <TouchableOpacity
-        style={{
-          backgroundColor: "black",
-          padding: 10,
-          borderRadius: 10,
-          marginTop: 20,
-        }}
-      >
-        <Text style={{ color: "blue", fontSize: 18 }}>Get Started</Text>
-      </TouchableOpacity>
     </View>
   );
 }

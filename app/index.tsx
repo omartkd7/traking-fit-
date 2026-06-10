@@ -1,10 +1,12 @@
 import { StyleSheet, View } from "react-native";
 import Home from "./Home";
+import Meun from "./Meun";
 
 function Index() {
   return (
     <View style={styles.container}>
       <Home />
+      <Meun />
     </View>
   );
 }
